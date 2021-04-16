@@ -5,13 +5,13 @@
 ## Installation
 
 ```
-deno install -f --allow-read --allow-write -n clear https://deno.land/x/remove_comments@1.0.0/src/cli.ts
+deno install -f --allow-read --allow-write -n clearcomments https://deno.land/x/remove_comments@1.0.0/src/cli.ts
 ```
 
 ## Usage
 
 ```
-clear -i [inputFile] -o [outputFile]
+clearcomments -i [inputFile] -o [outputFile]
 ```
 
 ```ts
