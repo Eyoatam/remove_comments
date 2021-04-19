@@ -21,7 +21,7 @@ const commentedCode = `
  * some block comment
  */
 function greet(name: string) {
-  console.log(`Hello ${name}`);
+  console.log("Hello " + name);
 }
 // single line comment
 greet("John");
