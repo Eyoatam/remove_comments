@@ -1,4 +1,4 @@
-export function removeComments(string: string): string {
-  const commentRegexp = new RegExp(/\/\*[\s\S]*?\*\/|\/\/.*\s/g);
-  return string.replace(commentRegexp, "").trim();
+export function removeComments(str: string): string {
+	const commentRegexp = /\/\*[\s\S]*?\*\/|\/\/.*\s/g;
+	return str.replace(commentRegexp, "").trim();
 }
